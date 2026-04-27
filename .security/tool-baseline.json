@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "generated_from": [
+    "session_20260426_221949_48549ef7.json",
+    "session_20260426_222428_a33df360.json",
+    "session_20260426_223824_5eb89f.json",
+    "session_20260427_144521_459f86.json",
+    "session_20260427_151435_d2ecfc.json",
+    "session_20260427_154800_e7cae1.json",
+    "session_20260427_155557_5fedf4.json",
+    "session_20260427_160420_3c2fbe.json",
+    "session_20260427_181707_9fd8b4.json",
+    "session_20260427_190819_86bf96.json",
+    "session_20260427_223114_3d4fcc.json",
+    "session_20260427_223530_1f190c.json"
+  ],
+  "tool_schemas": {
+    "browser_back": {
+      "0,0": 12
+    },
+    "browser_click": {
+      "1,1": 12
+    },
+    "browser_console": {
+      "0,2": 12
+    },
+    "browser_get_images": {
+      "0,0": 12
+    },
+    "browser_navigate": {
+      "1,1": 12
+    },
+    "browser_press": {
+      "1,1": 12
+    },
+    "browser_scroll": {
+      "1,1": 12
+    },
+    "browser_snapshot": {
+      "0,1": 12
+    },
+    "browser_type": {
+      "2,2": 12
+    },
+    "browser_vision": {
+      "1,2": 12
+    },
+    "clarify": {
+      "1,2": 12
+    },
+    "cronjob": {
+      "1,10": 12
+    },
+    "delegate_task": {
+      "0,7": 12
+    },
+    "execute_code": {
+      "1,1": 12
+    },
+    "memory": {
+      "2,4": 12
+    },
+    "patch": {
+      "1,6": 12
+    },
+    "process": {
+      "1,6": 12
+    },
+    "read_file": {
+      "1,3": 12
+    },
+    "search_files": {
+      "1,8": 12
+    },
+    "send_message": {
+      "0,3": 12
+    },
+    "session_search": {
+      "0,3": 12
+    },
+    "skill_manage": {
+      "2,9": 12
+    },
+    "skill_view": {
+      "1,2": 12
+    },
+    "skills_list": {
+      "0,1": 12
+    },
+    "terminal": {
+      "1,7": 12
+    },
+    "text_to_speech": {
+      "1,2": 12
+    },
+    "todo": {
+      "0,2": 12
+    },
+    "vision_analyze": {
+      "2,2": 12
+    },
+    "write_file": {
+      "2,2": 12
+    },
+    "feishu_doc_read": {
+      "1,1": 8
+    },
+    "feishu_drive_add_comment": {
+      "2,3": 8
+    },
+    "feishu_drive_list_comment_replies": {
+      "2,5": 8
+    },
+    "feishu_drive_list_comments": {
+      "1,5": 8
+    },
+    "feishu_drive_reply_comment": {
+      "3,4": 8
+    }
+  },
+  "call_freq": {
+    "search_files": 2,
+    "terminal": 567,
+    "process": 8,
+    "session_search": 2,
+    "browser_navigate": 4,
+    "todo": 3,
+    "write_file": 9,
+    "patch": 29,
+    "execute_code": 31,
+    "read_file": 7,
+    "browser_snapshot": 1,
+    "cronjob": 5
+  },
+  "arg_patterns": {
+    "search_files": {
+      "path|pattern|target": 2
+    },
+    "terminal": {
+      "command": 506,
+      "command|timeout": 52,
+      "background|command|notify_on_complete|watch_patterns": 5,
+      "background|command|watch_patterns": 2,
+      "background|command": 2
+    },
+    "process": {
+      "action|session_id": 8
+    },
+    "session_search": {
+      "limit|query": 2
+    },
+    "browser_navigate": {
+      "url": 4
+    },
+    "todo": {
+      "todos": 3
+    },
+    "write_file": {
+      "content|path": 9
+    },
+    "patch": {
+      "mode|new_string|old_string|path": 14,
+      "new_string|old_string|path": 15
+    },
+    "execute_code": {
+      "code": 31
+    },
+    "read_file": {
+      "limit|offset|path": 7
+    },
+    "browser_snapshot": {
+      "null": 1
+    },
+    "cronjob": {
+      "action": 3,
+      "action|deliver|name|prompt|schedule": 2
+    }
+  }
+}

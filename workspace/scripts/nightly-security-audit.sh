@@ -397,6 +397,30 @@ fi
 echo "" >> "$REPORT_FILE"
 
 # ============================================================
+# 巡检项 14: Skill/MCP 工具签名异常检测（污染检测）
+# ============================================================
+echo "【14/14】Skill/MCP 工具签名异常检测" >> "$REPORT_FILE"
+echo "========================================" >> "$REPORT_FILE"
+echo -e "\n${BLUE}[14/14] Skill/MCP 工具签名异常检测${RESET}"
+
+TOOL_DETECT_SCRIPT="$HC/.security/detect-skill-poisoning.py"
+if [ -f "$TOOL_DETECT_SCRIPT" ]; then
+  # 运行检测，捕获退出码
+  DETECT_OUTPUT=$(REPORT_FILE="$REPORT_FILE" python3 "$TOOL_DETECT_SCRIPT" 2>&1 || true)
+  if echo "$DETECT_OUTPUT" | grep -q "✅"; then
+    check_ok "工具签名检测通过"
+  elif echo "$DETECT_OUTPUT" | grep -q "🆕\|⚠️\|🔍\|🔄"; then
+    echo "$DETECT_OUTPUT" | grep "🆕\|⚠️\|🔍\|🔄" | head -20 | tee -a "$REPORT_FILE"
+    check_bad "检测到工具签名异常，请审计 .security/ 目录报告"
+  else
+    check_info "工具签名检测: $DETECT_OUTPUT"
+  fi
+else
+  check_info "检测脚本不存在，跳过"
+fi
+echo "" >> "$REPORT_FILE"
+
+# ============================================================
 # 输出完整报告路径
 # ============================================================
 echo "========================================" >> "$REPORT_FILE"
