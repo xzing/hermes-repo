@@ -1,0 +1,34 @@
+# 运行时产物
+*.log
+*.tmp
+*.lock
+
+# 虚拟环境 & 依赖
+venv/
+.venv/
+node_modules/
+
+# 数据库 & 运行时文件
+*.db
+*.db-journal
+hermes.db
+
+# 日志目录
+logs/
+**/logs/
+
+# 临时文件
+.DS_Store
+Thumbs.db
+
+# 安全：不要 track 巡检报告（可能含敏感路径信息）
+/tmp/hermes/
+
+# 嵌入式 git 仓库（第三方工具）
+hermes-agent/
+
+# 会话记录（可能含敏感对话内容）
+sessions/
+
+# Hermes state DB journals
+state.db-*
