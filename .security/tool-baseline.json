@@ -120,7 +120,7 @@
   },
   "call_freq": {
     "search_files": 2,
-    "terminal": 567,
+    "terminal": 568,
     "process": 8,
     "session_search": 2,
     "browser_navigate": 4,
@@ -137,7 +137,7 @@
       "path|pattern|target": 2
     },
     "terminal": {
-      "command": 506,
+      "command": 507,
       "command|timeout": 52,
       "background|command|notify_on_complete|watch_patterns": 5,
       "background|command|watch_patterns": 2,
