@@ -1,0 +1,43 @@
+{
+  "jobs": [
+    {
+      "id": "6766f328aa5f",
+      "name": "hermes-nightly-security-audit",
+      "prompt": "\u6267\u884c ~/.hermes/workspace/scripts/nightly-security-audit.sh \u5b8c\u6574\u5de1\u68c0\uff0c\u751f\u6210\u62a5\u544a\u5230 /tmp/hermes/security-reports/\u3002\u8d85\u65f6\u9650\u5236\u8bbe\u4e3a300\u79d2\u3002",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "display": "0 3 * * *"
+      },
+      "schedule_display": "0 3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-27T22:31:38.958633+08:00",
+      "next_run_at": "2026-04-28T03:00:00+08:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "feishu",
+        "chat_id": "oc_c9d05dfed3e4cc6f50894e6e80937e0a",
+        "chat_name": "oc_c9d05dfed3e4cc6f50894e6e80937e0a",
+        "thread_id": null
+      }
+    }
+  ],
+  "updated_at": "2026-04-27T22:31:38.959309+08:00"
+}

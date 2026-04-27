@@ -224,7 +224,7 @@ echo "【8/13】黄线操作交叉验证" >> "$REPORT_FILE"
 echo "========================================"
 echo -e "\n${BLUE}[8/13] 黄线操作交叉验证${RESET}"
 
-_journal_sudo=$(timeout 5 journalctl --since "yesterday" --no-pager -q -u sudo 2>/dev/null || true)
+_journal_sudo=$(timeout 10 journalctl --since "yesterday" --no-pager -q -u sudo 2>/dev/null || true)
 SUDO_RECENT=0
 if [ -n "$_journal_sudo" ]; then
   SUDO_RECENT=$(echo "$_journal_sudo" | grep -c "sudo" 2>/dev/null || echo "0")
@@ -248,8 +248,8 @@ else
   check_ok "根分区使用率正常 (${ROOT_USAGE}%)"
 fi
 
-# 最近 24h 大文件
-LARGE_FILES=$(find / -mtime -1 -size +100M -type f 2>/dev/null | grep -v "proc\|sys\|run" | head -10 || true)
+# 最近 24h 大文件（限制在 hermes 目录 + /tmp + /home，避免扫描全盘超时）
+LARGE_FILES=$(find "$HC" /tmp "$HOME" -mtime -1 -size +100M -type f 2>/dev/null | head -10 || true)
 LARGE_COUNT=$(echo "$LARGE_FILES" | grep -v "^$" | wc -l)
 if [ "$LARGE_COUNT" -gt 0 ]; then
   check_warn "最近 24h 新增大文件 ($LARGE_COUNT 个):"
@@ -348,7 +348,7 @@ if [ -d "$SKILLS_DIR" ]; then
   echo "  Skills 目录文件数: $SKILL_COUNT" | tee -a "$REPORT_FILE"
 
   # 生成当前哈希
-  CURRENT_HASH=$(find "$SKILLS_DIR" -type f -exec sha256sum {} \; 2>/dev/null | sort | sha256sum | cut -d' ' -f1)
+  CURRENT_HASH=$(timeout 15 find "$SKILLS_DIR" -type f -exec sha256sum {} \; 2>/dev/null | sort | sha256sum | cut -d' ' -f1)
   echo "  当前 Skills 目录哈希: $CURRENT_HASH" | tee -a "$REPORT_FILE"
 
   if [ -f "$BASELINE_FILE" ]; then
@@ -383,7 +383,7 @@ if [ -d "$HC/.git" ]; then
     # 尝试推送（不阻塞）
     git -C "$HC" add -A 2>/dev/null || true
     git -C "$HC" commit -m "Auto-backup ${TODAY} ${TIMESTAMP}" --allow-empty 2>/dev/null || true
-    git -C "$HC" push origin main 2>&1 | head -3 || true
+    timeout 30 git -C "$HC" push origin main 2>&1 | head -5 || true
     BACKUP_STATUS="已配置 (remote: $REMOTE)"
     check_ok "Git 灾备: $BACKUP_STATUS"
   else
