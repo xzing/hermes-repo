@@ -127,7 +127,7 @@
   },
   "call_freq": {
     "search_files": 2,
-    "terminal": 608,
+    "terminal": 609,
     "process": 8,
     "session_search": 2,
     "browser_navigate": 4,
@@ -135,7 +135,7 @@
     "write_file": 10,
     "patch": 40,
     "execute_code": 31,
-    "read_file": 15,
+    "read_file": 16,
     "browser_snapshot": 1,
     "cronjob": 7
   },
@@ -145,7 +145,7 @@
     },
     "terminal": {
       "command": 536,
-      "command|timeout": 61,
+      "command|timeout": 62,
       "background|command|notify_on_complete|watch_patterns": 5,
       "background|command|watch_patterns": 2,
       "background|command": 2,
@@ -175,7 +175,7 @@
     },
     "read_file": {
       "limit|offset|path": 10,
-      "path": 5
+      "path": 6
     },
     "browser_snapshot": {
       "null": 1
