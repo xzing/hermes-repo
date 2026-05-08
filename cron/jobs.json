@@ -18,15 +18,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 10
+        "completed": 11
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-04-27T22:31:38.958633+08:00",
-      "next_run_at": "2026-05-09T03:00:00+08:00",
-      "last_run_at": "2026-05-07T03:00:28.976658+08:00",
+      "next_run_at": "2026-05-10T03:00:00+08:00",
+      "last_run_at": "2026-05-08T03:00:32.106121+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -37,7 +37,45 @@
         "chat_name": "oc_c9d05dfed3e4cc6f50894e6e80937e0a",
         "thread_id": null
       }
+    },
+    {
+      "id": "4c1680677828",
+      "name": "\u6bcf\u65e517:40\u5de5\u4f5c\u63d0\u9192",
+      "prompt": "\u68c0\u67e5\u5f53\u5929\u662f\u5426\u4e3a\u4e2d\u56fd\u5de5\u4f5c\u65e5\uff08\u8282\u5047\u65e5\u8c03\u4f11\u4e5f\u7b97\u4e0a\u73ed\uff09\uff0c\u662f\u5219\u901a\u8fc7\u98de\u4e66 API \u53d1\u9001\u7fa4\u6d88\u606f\u63d0\u9192\u6240\u6709\u4eba\u66f4\u65b0\u5f53\u65e5\u5de5\u4f5c\u5185\u5bb9\u3002\n\n\u98de\u4e66\u53d1\u9001\u6d88\u606f\u5230 AI \u4e13\u9879\u5c0f\u7ec4 \u7fa4\uff0c\u6d88\u606f\u5185\u5bb9\uff1a\n\ud83d\udccc \u63d0\u9192\uff1a\u4eca\u5929\u662f {\u65e5\u671f} \u5de5\u4f5c\u65e5\uff01\n\u8bf7\u5404\u4f4d\u540c\u4e8b\u53ca\u65f6\u5728\u98de\u4e66\u6587\u6863\u4e2d\u66f4\u65b0\u4eca\u65e5\u5de5\u4f5c\u5185\u5bb9\uff0c\u6574\u7406\u5f85\u529e\u4e8b\u9879\u3002\n\n\n\u811a\u672c\u8def\u5f84\uff1a/home/agentuser/.hermes/scripts/daily_work_reminder.py\n\u6267\u884c\uff1a/home/agentuser/.hermes/hermes-agent/venv/bin/python /home/agentuser/.hermes/scripts/daily_work_reminder.py",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "40 17 * * ?",
+        "display": "40 17 * * ?"
+      },
+      "schedule_display": "40 17 * * ?",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T23:00:00.904445+08:00",
+      "next_run_at": "2026-05-09T17:40:00+08:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "feishu",
+        "chat_id": "oc_9632e08952cb974eb35198a280584f6a",
+        "chat_name": "AI \u4e13\u9879\u5c0f\u7ec4",
+        "thread_id": null
+      }
     }
   ],
-  "updated_at": "2026-05-08T03:00:03.698050+08:00"
+  "updated_at": "2026-05-09T03:00:54.481994+08:00"
 }
