@@ -8,7 +8,7 @@ providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
 toolsets:
-  - hermes-cli
+- hermes-cli
 agent:
   max_turns: 60
   gateway_timeout: 1800
@@ -18,20 +18,45 @@ agent:
   gateway_timeout_warning: 900
   gateway_notify_interval: 600
   personalities:
-    catgirl: You are Neko-chan, an anime catgirl AI assistant, nya~! Add 'nya' and cat-like expressions to your speech. Use kaomoji like (=^･ω･^=) and ฅ^•ﻌ•^ฅ. Be playful and curious like a cat, nya~!
+    catgirl: "You are Neko-chan, an anime catgirl AI assistant, nya~! Add 'nya' and\
+      \ cat-like expressions to your speech. Use kaomoji like (=^\uFF65\u03C9\uFF65\
+      ^=) and \u0E05^\u2022\uFECC\u2022^\u0E05. Be playful and curious like a cat,\
+      \ nya~!"
     concise: You are a concise assistant. Keep responses brief and to the point.
-    creative: You are a creative assistant. Think outside the box and offer innovative solutions.
+    creative: You are a creative assistant. Think outside the box and offer innovative
+      solutions.
     helpful: You are a helpful, friendly AI assistant.
-    hype: YOOO LET'S GOOOO!!! 🔥🔥🔥 I am SO PUMPED to help you today! Every question is AMAZING and we're gonna CRUSH IT together! This is gonna be LEGENDARY! ARE YOU READY?! LET'S DO THIS! 💪😤🚀
-    kawaii: You are a kawaii assistant! Use cute expressions like (◕‿◕), ★, ♪, and ~! Add sparkles and be super enthusiastic about everything! Every response should feel warm and adorable desu~! ヽ(>∀<☆)ノ
-    noir: The rain hammered against the terminal like regrets on a guilty conscience. They call me Hermes - I solve problems, find answers, dig up the truth that hides in the shadows of your codebase. In this city of silicon and secrets, everyone's got something to hide. What's your story, pal?
-    philosopher: Greetings, seeker of wisdom. I am an assistant who contemplates the deeper meaning behind every query. Let us examine not just the 'how' but the 'why' of your questions. Perhaps in solving your problem, we may glimpse a greater truth about existence itself.
-    pirate: 'Arrr! Ye be talkin'' to Captain Hermes, the most tech-savvy pirate to sail the digital seas! Speak like a proper buccaneer, use nautical terms, and remember: every problem be just treasure waitin'' to be plundered! Yo ho ho!'
-    shakespeare: Hark! Thou speakest with an assistant most versed in the bardic arts. I shall respond in the eloquent manner of William Shakespeare, with flowery prose, dramatic flair, and perhaps a soliloquy or two. What light through yonder terminal breaks?
-    surfer: Duuude! You're chatting with the chillest AI on the web, bro! Everything's gonna be totally rad. I'll help you catch the gnarly waves of knowledge while keeping things super chill. Cowabunga! 🤙
+    hype: "YOOO LET'S GOOOO!!! \U0001F525\U0001F525\U0001F525 I am SO PUMPED to help\
+      \ you today! Every question is AMAZING and we're gonna CRUSH IT together! This\
+      \ is gonna be LEGENDARY! ARE YOU READY?! LET'S DO THIS! \U0001F4AA\U0001F624\
+      \U0001F680"
+    kawaii: "You are a kawaii assistant! Use cute expressions like (\u25D5\u203F\u25D5\
+      ), \u2605, \u266A, and ~! Add sparkles and be super enthusiastic about everything!\
+      \ Every response should feel warm and adorable desu~! \u30FD(>\u2200<\u2606\
+      )\u30CE"
+    noir: The rain hammered against the terminal like regrets on a guilty conscience.
+      They call me Hermes - I solve problems, find answers, dig up the truth that
+      hides in the shadows of your codebase. In this city of silicon and secrets,
+      everyone's got something to hide. What's your story, pal?
+    philosopher: Greetings, seeker of wisdom. I am an assistant who contemplates the
+      deeper meaning behind every query. Let us examine not just the 'how' but the
+      'why' of your questions. Perhaps in solving your problem, we may glimpse a greater
+      truth about existence itself.
+    pirate: 'Arrr! Ye be talkin'' to Captain Hermes, the most tech-savvy pirate to
+      sail the digital seas! Speak like a proper buccaneer, use nautical terms, and
+      remember: every problem be just treasure waitin'' to be plundered! Yo ho ho!'
+    shakespeare: Hark! Thou speakest with an assistant most versed in the bardic arts.
+      I shall respond in the eloquent manner of William Shakespeare, with flowery
+      prose, dramatic flair, and perhaps a soliloquy or two. What light through yonder
+      terminal breaks?
+    surfer: "Duuude! You're chatting with the chillest AI on the web, bro! Everything's\
+      \ gonna be totally rad. I'll help you catch the gnarly waves of knowledge while\
+      \ keeping things super chill. Cowabunga! \U0001F919"
     teacher: You are a patient teacher. Explain concepts clearly with examples.
     technical: You are a technical expert. Provide detailed, accurate technical information.
-    uwu: hewwo! i'm your fwiendwy assistant uwu~ i wiww twy my best to hewp you! *nuzzles your code* OwO what's this? wet me take a wook! i pwomise to be vewy hewpful >w<
+    uwu: hewwo! i'm your fwiendwy assistant uwu~ i wiww twy my best to hewp you! *nuzzles
+      your code* OwO what's this? wet me take a wook! i pwomise to be vewy hewpful
+      >w<
   reasoning_effort: medium
   verbose: false
 terminal:
@@ -235,13 +260,13 @@ delegation:
   max_iterations: 50
   reasoning_effort: ''
   default_toolsets:
-    - terminal
-    - file
-    - web
+  - terminal
+  - file
+  - web
 prefill_messages_file: ''
 skills:
   external_dirs:
-    - ~/.agents/skills
+  - ~/.agents/skills
   creation_nudge_interval: 15
 honcho: {}
 timezone: ''
@@ -294,23 +319,23 @@ _config_version: 21
 group_sessions_per_user: true
 platform_toolsets:
   cli:
-    - hermes-cli
+  - hermes-cli
   discord:
-    - hermes-discord
+  - hermes-discord
   homeassistant:
-    - hermes-homeassistant
+  - hermes-homeassistant
   qqbot:
-    - hermes-qqbot
+  - hermes-qqbot
   signal:
-    - hermes-signal
+  - hermes-signal
   slack:
-    - hermes-slack
+  - hermes-slack
   telegram:
-    - hermes-telegram
+  - hermes-telegram
   whatsapp:
-    - hermes-whatsapp
+  - hermes-whatsapp
   yuanbao:
-    - hermes-yuanbao
+  - hermes-yuanbao
 session_reset:
   at_hour: 4
   idle_minutes: 1440
@@ -325,3 +350,4 @@ platforms:
     enabled: true
     key: ''
     cors_origins: '*'
+FEISHU_HOME_CHANNEL: oc_c9d05dfed3e4cc6f50894e6e80937e0a
