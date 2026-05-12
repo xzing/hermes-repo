@@ -201,6 +201,10 @@
       1776654200000000000,
       1264
     ],
+    "productivity/feishu-bitable-tasks/SKILL.md": [
+      1778529810561181310,
+      1913
+    ],
     "productivity/google-workspace/SKILL.md": [
       1776654200000000000,
       10731
@@ -1049,6 +1053,19 @@
       "category": "note-taking",
       "frontmatter_name": "obsidian",
       "description": "Read, search, and create notes in the Obsidian vault.",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "feishu-bitable-tasks",
+      "category": "productivity",
+      "frontmatter_name": "feishu-bitable-tasks",
+      "description": "写入任务到飞书多维表格「📋忠林的工作事项」",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
