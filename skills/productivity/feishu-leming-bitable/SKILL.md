@@ -1,15 +1,12 @@
 ---
-name: feishu-bitable-tasks
-description: 写入任务到飞书多维表格（Bitable）
+name: feishu-leming-bitable
+description: 写入飞书多维表格任务（从用户提供的 wiki 链接获取）
+tags: []
 ---
 
-# 飞书多维表格任务写入
+# 飞书多维表格写入流程
 
-**每次写入都必须从用户发来的 wiki URL 解析，绝不使用记忆中的旧链接。**
-
-## 认证信息（固定）
-- App ID: `cli_a964a24c23789cdb`
-- App Secret: `DLOhGVHwivTrGE6WcLWQDfUYddZTUMFv`
+**每次写入都需要从用户发来的 wiki 链接解析，绝不使用记忆中的旧链接。**
 
 ## 完整流程
 
@@ -17,17 +14,18 @@ description: 写入任务到飞书多维表格（Bitable）
 ```bash
 curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \
   -H "Content-Type: application/json" \
-  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "DLOhGVHwivTrGE6WcLWQDfUYddZTUMFv"}'
+  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "DLOhGVHwiTrGE6WcLWQDfUYddZTUMFv"}'
 ```
 
 ### Step 2: 从 wiki 链接获取 app_token
 用户发来的 wiki URL 格式：`https://xxx.feishu.cn/wiki/{wiki_token}`
 
+用 wiki token 调用节点 API：
 ```bash
 curl -s "https://open.feishu.cn/open-apis/wiki/v2/spaces/get_node?token={wiki_token}" \
   -H "Authorization: Bearer {token}"
 ```
-返回的 `obj_token` 即为多维表格 app_token（`obj_type` 应为 `bitable`）。
+返回的 `obj_token` 即为多维表格的 app_token，`obj_type` 应为 `bitable`。
 
 ### Step 3: 获取 table_id
 ```bash
@@ -60,17 +58,11 @@ curl -s -X POST "https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/ta
 
 **注意**：创建时间、优先级、执行人三个字段每次都必须写入，不能遗漏。
 
-## 字段说明（常见字段）
-| 字段 | 类型 | 说明 |
-|------|------|------|
-| 待办事项 | text | 主字段，必填 |
-| 是否已完成 | checkbox | boolean，设为 true |
-| 创建时间 | datetime | unix timestamp 秒级 |
-| 优先级 | single_select | 默认 🟡P1-一般 |
-| 执行人 | user | AIX: ou_fe6053b8bebb3e0846025b32a5615584 |
+## 认证信息（固定）
+- App ID: `cli_a964a24c23789cdb`
+- App Secret: `DLOhGVHwivTrGE6WcLWQDfUYddZTUMFv`
 
 ## 关键原则
-- **每次写入必须从用户发来的 wiki URL 解析**，绝不使用记忆/旧链接
+- **每次写入必须从用户发来的 wiki URL 获取信息**，绝不使用记忆/旧链接
 - wiki token 从 URL path 中提取，例如 `wiki/EVq6wyv1xicuCHkQLhBcVUgZngd` → token = `EVq6wyv1xicuCHkQLhBcVUgZngd`
-- tenant_access_token 有效期约2小时，超时重新获取即可
-- 不需要每次登录，用固化凭证直接调用 API
+- tenant_access_token 有效期约2小时，超时需要重新获取

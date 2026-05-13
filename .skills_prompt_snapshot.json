@@ -202,8 +202,12 @@
       1264
     ],
     "productivity/feishu-bitable-tasks/SKILL.md": [
-      1778529810561181310,
-      1913
+      1778674939308743493,
+      2821
+    ],
+    "productivity/feishu-leming-bitable/SKILL.md": [
+      1778675111763712472,
+      2485
     ],
     "productivity/google-workspace/SKILL.md": [
       1776654200000000000,
@@ -1065,7 +1069,20 @@
       "skill_name": "feishu-bitable-tasks",
       "category": "productivity",
       "frontmatter_name": "feishu-bitable-tasks",
-      "description": "写入任务到飞书多维表格「📋忠林的工作事项」",
+      "description": "写入任务到飞书多维表格（Bitable）",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "feishu-leming-bitable",
+      "category": "productivity",
+      "frontmatter_name": "feishu-leming-bitable",
+      "description": "写入飞书多维表格任务（从用户提供的 wiki 链接获取）",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
