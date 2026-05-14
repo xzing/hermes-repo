@@ -24,7 +24,10 @@ if __name__ == "__main__":
         
         # 获取 tenant token
         app_id = "cli_a964a24c23789cdb"
-        app_secret = "DLOhGVHwivTrGE6WcLWQDfUYddZTUMFv"
+        app_secret = os.environ.get("FEISHU_APP_SECRET", "")
+        if not app_secret:
+            print("ERROR: FEISHU_APP_SECRET not set")
+            exit(1)
         
         token_req = urllib.request.Request(
             "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal",

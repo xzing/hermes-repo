@@ -14,7 +14,7 @@ tags: []
 ```bash
 curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \
   -H "Content-Type: application/json" \
-  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "DLOhGVHwiTrGE6WcLWQDfUYddZTUMFv"}'
+  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "'"$FEISHU_APP_SECRET"'"}'
 ```
 
 ### Step 2: 从 wiki 链接获取 app_token
@@ -60,7 +60,7 @@ curl -s -X POST "https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/ta
 
 ## 认证信息（固定）
 - App ID: `cli_a964a24c23789cdb`
-- App Secret: `DLOhGVHwivTrGE6WcLWQDfUYddZTUMFv`
+- App Secret: 已在环境变量中配置，通过 session_search 查找有效值
 
 ## 关键原则
 - **每次写入必须从用户发来的 wiki URL 获取信息**，绝不使用记忆/旧链接

@@ -9,7 +9,7 @@ description: 写入任务到飞书多维表格（Bitable）
 
 ## 认证信息（固定）
 - App ID: `cli_a964a24c23789cdb`
-- App Secret: `DLOhGVHwivTrGE6WcLWQDfUYddZTUMFv`
+- App Secret: 环境变量 `FEISHU_APP_SECRET`
 
 ## 完整流程
 
@@ -17,7 +17,7 @@ description: 写入任务到飞书多维表格（Bitable）
 ```bash
 curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \
   -H "Content-Type: application/json" \
-  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "DLOhGVHwivTrGE6WcLWQDfUYddZTUMFv"}'
+  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "'"$FEISHU_APP_SECRET"'"}'
 ```
 
 ### Step 2: 从 wiki 链接获取 app_token
