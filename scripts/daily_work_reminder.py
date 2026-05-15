@@ -3,6 +3,7 @@
 每日工作提醒检查脚本
 检查当天是否为工作日（中国节假日调休），是则发群通知
 """
+import os
 import datetime
 import chinese_calendar
 from chinese_calendar import is_workday, is_holiday
