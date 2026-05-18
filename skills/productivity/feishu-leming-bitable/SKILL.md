@@ -12,9 +12,10 @@ tags: []
 
 ### Step 1: 获取 tenant_access_token
 ```bash
-curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \
+TOKEN=$(curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \
   -H "Content-Type: application/json" \
-  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "'"$FEISHU_APP_SECRET"'"}'
+  -d '{"app_id": "cli_a964a24c23789cdb", "app_secret": "'"$FEISHU_APP_SECRET"'"}" \
+  | python3 -c "import sys,json; print(json.load(sys.stdin).get('tenant_access_token',''))")
 ```
 
 ### Step 2: 从 wiki 链接获取 app_token
@@ -22,28 +23,28 @@ curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/in
 
 用 wiki token 调用节点 API：
 ```bash
-curl -s "https://open.feishu.cn/open-apis/wiki/v2/spaces/get_node?token={wiki_token}" \
-  -H "Authorization: Bearer {token}"
+curl -s "https://open.feishu.cn/open-apis/wiki/v2/spaces/get_node?token=${WIKI_TOKEN}" \
+  -H "Authorization: Bearer ${TOKEN}"
 ```
 返回的 `obj_token` 即为多维表格的 app_token，`obj_type` 应为 `bitable`。
 
 ### Step 3: 获取 table_id
 ```bash
-curl -s "https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/tables" \
-  -H "Authorization: Bearer {token}"
+curl -s "https://open.feishu.cn/open-apis/bitable/v1/apps/${APP_TOKEN}/tables" \
+  -H "Authorization: Bearer ${TOKEN}"
 ```
 
 ### Step 4: 查看字段（首次写入时）
 ```bash
-curl -s "https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/fields" \
-  -H "Authorization: Bearer {token}"
+curl -s "https://open.feishu.cn/open-apis/bitable/v1/apps/${APP_TOKEN}/tables/${TABLE_ID}/fields" \
+  -H "Authorization: Bearer ${TOKEN}"
 ```
 
 ### Step 5: 写入记录（完整字段）
 ```bash
-TS=$(date +%s)000  # unix timestamp，毫秒级（重要：必须乘以1000，表格要求毫秒）
-curl -s -X POST "https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records" \
-  -H "Authorization: Bearer {token}" \
+TS=$(date +%s)   # unix timestamp，整数秒（不是毫秒，Bitable 日期字段要求整数秒）
+RESP=$(curl -s -X POST "https://open.feishu.cn/open-apis/bitable/v1/apps/${APP_TOKEN}/tables/${TABLE_ID}/records" \
+  -H "Authorization: Bearer ${TOKEN}" \
   -H "Content-Type: application/json" \
   -d "{
     \"fields\": {
@@ -51,12 +52,36 @@ curl -s -X POST "https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/ta
       \"是否已完成\": true,
       \"创建时间\": ${TS},
       \"优先级\": \"🟡P1-一般\",
-      \"执行人\": [{\"id\": \"ou_fe6053b8bebb3e0846025b32a5615584\", \"name\": \"AIX\", \"en_name\": \"AIX\", \"email\": \"\", \"avatar_url\": \"\"}]
+      \"执行人\": [{\"id\": \"ou_fe6053b8bebb3e0846025b32a5615584\"}]
     }
-  }"
+  }")
+echo "Response code: $(echo $RESP | python3 -c 'import sys,json; print(json.load(sys.stdin).get("code"))')"
 ```
 
 **注意**：创建时间、优先级、执行人三个字段每次都必须写入，不能遗漏。
+
+## 安全原则
+
+**🚨 绝对禁止**：在任何输出（终端 / 消息回复 / 日志）中暴露真实 token。
+
+| 场景 | 正确做法 | 错误做法 |
+|------|---------|---------|
+| 获取 token | `TOKEN=$(curl ... \| python3 -c "...")` | `curl ...` 直接输出 |
+| 使用 token 调用 API | `curl -H "Authorization: Bearer ${TOKEN}"` | 单独 echo token |
+| 调试/确认 | `echo "Token: ${TOKEN:0:8}***"` 或 `echo "Token: ${TOKEN:0:4}***"` | `echo $TOKEN` / `echo "token=$TOKEN"` |
+| 响应处理 | 存变量或重定向 `> /tmp/resp.txt` | 直接打印包含 token 的原始 JSON |
+
+**示例**：
+```bash
+# ✅ 正确：只打印 mask 后的前缀
+echo "Token: ${TOKEN:0:8}***"
+
+# ✅ 正确：重定向避免 stdout 暴露
+curl ... > /tmp/resp.txt 2>&1
+
+# ❌ 错误：终端直接打印真实 token
+echo $TOKEN
+```
 
 ## 认证信息（固定）
 - App ID: `cli_a964a24c23789cdb`
