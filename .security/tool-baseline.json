@@ -71,6 +71,7 @@
     "session_cron_4c1680677828_20260523_174031.json",
     "session_cron_4c1680677828_20260524_174054.json",
     "session_cron_4c1680677828_20260525_174010.json",
+    "session_cron_4c1680677828_20260526_174047.json",
     "session_cron_6766f328aa5f_20260428_030005.json",
     "session_cron_6766f328aa5f_20260429_030014.json",
     "session_cron_6766f328aa5f_20260430_030047.json",
@@ -98,38 +99,40 @@
     "session_cron_6766f328aa5f_20260522_030035.json",
     "session_cron_6766f328aa5f_20260523_030008.json",
     "session_cron_6766f328aa5f_20260524_030006.json",
-    "session_cron_6766f328aa5f_20260525_030026.json"
+    "session_cron_6766f328aa5f_20260525_030026.json",
+    "session_cron_6766f328aa5f_20260526_030046.json",
+    "session_cron_6766f328aa5f_20260527_030019.json"
   ],
   "tool_schemas": {
     "browser_back": {
-      "0,0": 98
+      "0,0": 101
     },
     "browser_click": {
-      "1,1": 98
+      "1,1": 101
     },
     "browser_console": {
-      "0,2": 98
+      "0,2": 101
     },
     "browser_get_images": {
-      "0,0": 98
+      "0,0": 101
     },
     "browser_navigate": {
-      "1,1": 98
+      "1,1": 101
     },
     "browser_press": {
-      "1,1": 98
+      "1,1": 101
     },
     "browser_scroll": {
-      "1,1": 98
+      "1,1": 101
     },
     "browser_snapshot": {
-      "0,1": 98
+      "0,1": 101
     },
     "browser_type": {
-      "2,2": 98
+      "2,2": 101
     },
     "browser_vision": {
-      "1,2": 98
+      "1,2": 101
     },
     "clarify": {
       "1,2": 53
@@ -138,75 +141,75 @@
       "1,10": 53
     },
     "delegate_task": {
-      "0,7": 98
+      "0,7": 101
     },
     "execute_code": {
-      "1,1": 98
+      "1,1": 101
     },
     "memory": {
-      "2,4": 98
+      "2,4": 101
     },
     "patch": {
-      "1,6": 98
+      "1,6": 101
     },
     "process": {
-      "1,6": 98
+      "1,6": 101
     },
     "read_file": {
-      "1,3": 98
+      "1,3": 101
     },
     "search_files": {
-      "1,8": 98
+      "1,8": 101
     },
     "send_message": {
       "0,3": 53
     },
     "session_search": {
-      "0,3": 98
+      "0,3": 101
     },
     "skill_manage": {
-      "2,9": 98
+      "2,9": 101
     },
     "skill_view": {
-      "1,2": 98
+      "1,2": 101
     },
     "skills_list": {
-      "0,1": 98
+      "0,1": 101
     },
     "terminal": {
-      "1,7": 98
+      "1,7": 101
     },
     "text_to_speech": {
-      "1,2": 98
+      "1,2": 101
     },
     "todo": {
-      "0,2": 98
+      "0,2": 101
     },
     "vision_analyze": {
-      "2,2": 98
+      "2,2": 101
     },
     "write_file": {
-      "2,2": 98
+      "2,2": 101
     },
     "feishu_doc_read": {
-      "1,1": 78
+      "1,1": 81
     },
     "feishu_drive_add_comment": {
-      "2,3": 78
+      "2,3": 81
     },
     "feishu_drive_list_comment_replies": {
-      "2,5": 78
+      "2,5": 81
     },
     "feishu_drive_list_comments": {
-      "1,5": 78
+      "1,5": 81
     },
     "feishu_drive_reply_comment": {
-      "3,4": 78
+      "3,4": 81
     }
   },
   "call_freq": {
     "search_files": 63,
-    "terminal": 1853,
+    "terminal": 1856,
     "process": 44,
     "session_search": 38,
     "browser_navigate": 45,
@@ -214,10 +217,10 @@
     "write_file": 32,
     "patch": 67,
     "execute_code": 198,
-    "read_file": 103,
+    "read_file": 105,
     "browser_snapshot": 8,
     "cronjob": 13,
-    "skill_view": 42,
+    "skill_view": 43,
     "memory": 43,
     "skills_list": 22,
     "clarify": 4,
@@ -235,13 +238,13 @@
       "limit|path|pattern|target": 2
     },
     "terminal": {
-      "command": 1696,
-      "command|timeout": 130,
+      "command": 1697,
+      "command|timeout": 131,
       "background|command|notify_on_complete|watch_patterns": 5,
       "background|command|watch_patterns": 2,
       "background|command": 2,
       "background|command|notify_on_complete": 11,
-      "command|timeout|workdir": 7
+      "command|timeout|workdir": 8
     },
     "process": {
       "action|session_id": 36,
@@ -269,7 +272,7 @@
     },
     "read_file": {
       "limit|offset|path": 17,
-      "path": 75,
+      "path": 77,
       "limit|path": 7,
       "limit": 4
     },
@@ -284,7 +287,7 @@
       "action|job_id|schedule": 2
     },
     "skill_view": {
-      "name": 42
+      "name": 43
     },
     "memory": {
       "action|target": 4,
