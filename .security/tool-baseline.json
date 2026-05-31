@@ -77,6 +77,7 @@
     "session_cron_4c1680677828_20260527_174008.json",
     "session_cron_4c1680677828_20260528_174049.json",
     "session_cron_4c1680677828_20260529_174041.json",
+    "session_cron_4c1680677828_20260530_174002.json",
     "session_cron_6766f328aa5f_20260428_030005.json",
     "session_cron_6766f328aa5f_20260429_030014.json",
     "session_cron_6766f328aa5f_20260430_030047.json",
@@ -108,38 +109,40 @@
     "session_cron_6766f328aa5f_20260526_030046.json",
     "session_cron_6766f328aa5f_20260527_030019.json",
     "session_cron_6766f328aa5f_20260528_030044.json",
-    "session_cron_6766f328aa5f_20260529_030029.json"
+    "session_cron_6766f328aa5f_20260529_030029.json",
+    "session_cron_6766f328aa5f_20260530_030018.json",
+    "session_cron_6766f328aa5f_20260531_030037.json"
   ],
   "tool_schemas": {
     "browser_back": {
-      "0,0": 108
+      "0,0": 111
     },
     "browser_click": {
-      "1,1": 108
+      "1,1": 111
     },
     "browser_console": {
-      "0,2": 108
+      "0,2": 111
     },
     "browser_get_images": {
-      "0,0": 108
+      "0,0": 111
     },
     "browser_navigate": {
-      "1,1": 108
+      "1,1": 111
     },
     "browser_press": {
-      "1,1": 108
+      "1,1": 111
     },
     "browser_scroll": {
-      "1,1": 108
+      "1,1": 111
     },
     "browser_snapshot": {
-      "0,1": 108
+      "0,1": 111
     },
     "browser_type": {
-      "2,2": 108
+      "2,2": 111
     },
     "browser_vision": {
-      "1,2": 108
+      "1,2": 111
     },
     "clarify": {
       "1,2": 55
@@ -148,83 +151,83 @@
       "1,10": 55
     },
     "delegate_task": {
-      "0,7": 108
+      "0,7": 111
     },
     "execute_code": {
-      "1,1": 108
+      "1,1": 111
     },
     "memory": {
-      "2,4": 108
+      "2,4": 111
     },
     "patch": {
-      "1,6": 108
+      "1,6": 111
     },
     "process": {
-      "1,6": 108
+      "1,6": 111
     },
     "read_file": {
-      "1,3": 108
+      "1,3": 111
     },
     "search_files": {
-      "1,8": 108
+      "1,8": 111
     },
     "send_message": {
       "0,3": 55
     },
     "session_search": {
-      "0,3": 108
+      "0,3": 111
     },
     "skill_manage": {
-      "2,9": 108
+      "2,9": 111
     },
     "skill_view": {
-      "1,2": 108
+      "1,2": 111
     },
     "skills_list": {
-      "0,1": 108
+      "0,1": 111
     },
     "terminal": {
-      "1,7": 108
+      "1,7": 111
     },
     "text_to_speech": {
-      "1,2": 108
+      "1,2": 111
     },
     "todo": {
-      "0,2": 108
+      "0,2": 111
     },
     "vision_analyze": {
-      "2,2": 108
+      "2,2": 111
     },
     "write_file": {
-      "2,2": 108
+      "2,2": 111
     },
     "feishu_doc_read": {
-      "1,1": 87
+      "1,1": 90
     },
     "feishu_drive_add_comment": {
-      "2,3": 87
+      "2,3": 90
     },
     "feishu_drive_list_comment_replies": {
-      "2,5": 87
+      "2,5": 90
     },
     "feishu_drive_list_comments": {
-      "1,5": 87
+      "1,5": 90
     },
     "feishu_drive_reply_comment": {
-      "3,4": 87
+      "3,4": 90
     }
   },
   "call_freq": {
     "search_files": 63,
-    "terminal": 1918,
+    "terminal": 1923,
     "process": 44,
-    "session_search": 40,
+    "session_search": 41,
     "browser_navigate": 45,
     "todo": 11,
     "write_file": 32,
     "patch": 67,
     "execute_code": 199,
-    "read_file": 110,
+    "read_file": 112,
     "browser_snapshot": 8,
     "cronjob": 13,
     "skill_view": 45,
@@ -245,8 +248,8 @@
       "limit|path|pattern|target": 2
     },
     "terminal": {
-      "command": 1753,
-      "command|timeout": 137,
+      "command": 1754,
+      "command|timeout": 141,
       "background|command|notify_on_complete|watch_patterns": 5,
       "background|command|watch_patterns": 2,
       "background|command": 2,
@@ -259,7 +262,7 @@
     },
     "session_search": {
       "limit|query": 10,
-      "query": 30
+      "query": 31
     },
     "browser_navigate": {
       "url": 45
@@ -279,7 +282,7 @@
     },
     "read_file": {
       "limit|offset|path": 17,
-      "path": 82,
+      "path": 84,
       "limit|path": 7,
       "limit": 4
     },
