@@ -82,6 +82,7 @@
     "session_cron_4c1680677828_20260530_174002.json",
     "session_cron_4c1680677828_20260531_174023.json",
     "session_cron_4c1680677828_20260601_174005.json",
+    "session_cron_4c1680677828_20260602_174024.json",
     "session_cron_6766f328aa5f_20260428_030005.json",
     "session_cron_6766f328aa5f_20260429_030014.json",
     "session_cron_6766f328aa5f_20260430_030047.json",
@@ -116,115 +117,116 @@
     "session_cron_6766f328aa5f_20260529_030029.json",
     "session_cron_6766f328aa5f_20260530_030018.json",
     "session_cron_6766f328aa5f_20260531_030037.json",
-    "session_cron_6766f328aa5f_20260601_030058.json"
+    "session_cron_6766f328aa5f_20260601_030058.json",
+    "session_cron_6766f328aa5f_20260602_030035.json"
   ],
   "tool_schemas": {
     "browser_back": {
-      "0,0": 116
+      "0,0": 117
     },
     "browser_click": {
-      "1,1": 116
+      "1,1": 117
     },
     "browser_console": {
-      "0,2": 116
+      "0,2": 117
     },
     "browser_get_images": {
-      "0,0": 116
+      "0,0": 117
     },
     "browser_navigate": {
-      "1,1": 116
+      "1,1": 117
     },
     "browser_press": {
-      "1,1": 116
+      "1,1": 117
     },
     "browser_scroll": {
-      "1,1": 116
+      "1,1": 117
     },
     "browser_snapshot": {
-      "0,1": 116
+      "0,1": 117
     },
     "browser_type": {
-      "2,2": 116
+      "2,2": 117
     },
     "browser_vision": {
-      "1,2": 116
+      "1,2": 117
     },
     "clarify": {
-      "1,2": 57
+      "1,2": 56
     },
     "cronjob": {
-      "1,10": 57
+      "1,10": 56
     },
     "delegate_task": {
-      "0,7": 116
+      "0,7": 117
     },
     "execute_code": {
-      "1,1": 116
+      "1,1": 117
     },
     "memory": {
-      "2,4": 116
+      "2,4": 118
     },
     "patch": {
-      "1,6": 116
+      "1,6": 117
     },
     "process": {
-      "1,6": 116
+      "1,6": 117
     },
     "read_file": {
-      "1,3": 116
+      "1,3": 117
     },
     "search_files": {
-      "1,8": 116
+      "1,8": 117
     },
     "send_message": {
-      "0,3": 57
+      "0,3": 56
     },
     "session_search": {
-      "0,3": 116
+      "0,3": 117
     },
     "skill_manage": {
-      "2,9": 116
+      "2,9": 118
     },
     "skill_view": {
-      "1,2": 116
+      "1,2": 118
     },
     "skills_list": {
-      "0,1": 116
+      "0,1": 118
     },
     "terminal": {
-      "1,7": 116
+      "1,7": 117
     },
     "text_to_speech": {
-      "1,2": 116
+      "1,2": 117
     },
     "todo": {
-      "0,2": 116
+      "0,2": 117
     },
     "vision_analyze": {
-      "2,2": 116
+      "2,2": 117
     },
     "write_file": {
-      "2,2": 116
+      "2,2": 117
     },
     "feishu_doc_read": {
-      "1,1": 93
+      "1,1": 95
     },
     "feishu_drive_add_comment": {
-      "2,3": 93
+      "2,3": 95
     },
     "feishu_drive_list_comment_replies": {
-      "2,5": 93
+      "2,5": 95
     },
     "feishu_drive_list_comments": {
-      "1,5": 93
+      "1,5": 95
     },
     "feishu_drive_reply_comment": {
-      "3,4": 93
+      "3,4": 95
     }
   },
   "call_freq": {
     "search_files": 63,
-    "terminal": 1932,
+    "terminal": 1935,
     "process": 44,
     "session_search": 42,
     "browser_navigate": 45,
@@ -232,11 +234,11 @@
     "write_file": 32,
     "patch": 67,
     "execute_code": 199,
-    "read_file": 116,
+    "read_file": 117,
     "browser_snapshot": 8,
     "cronjob": 13,
     "skill_view": 46,
-    "memory": 43,
+    "memory": 44,
     "skills_list": 22,
     "clarify": 6,
     "send_message": 4,
@@ -253,13 +255,13 @@
       "limit|path|pattern|target": 2
     },
     "terminal": {
-      "command": 1759,
-      "command|timeout": 144,
+      "command": 1760,
+      "command|timeout": 145,
       "background|command|notify_on_complete|watch_patterns": 5,
       "background|command|watch_patterns": 2,
       "background|command": 2,
       "background|command|notify_on_complete": 11,
-      "command|timeout|workdir": 8,
+      "command|timeout|workdir": 9,
       "command|notify_on_complete|timeout|workdir": 1
     },
     "process": {
@@ -288,7 +290,7 @@
     },
     "read_file": {
       "limit|offset|path": 17,
-      "path": 88,
+      "path": 89,
       "limit|path": 7,
       "limit": 4
     },
@@ -307,7 +309,7 @@
     },
     "memory": {
       "action|target": 4,
-      "action|content|target": 12,
+      "action|content|target": 13,
       "action|content|old_text|target": 18,
       "action|old_text|target": 7,
       "action|content|old_text": 2
