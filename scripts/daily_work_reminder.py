@@ -11,7 +11,9 @@ import urllib.error
 import json
 
 # ============ 配置 ============
-FEISHU_WEBHOOK_URL = "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # 请替换为实际 webhook
+FEISHU_APP_ID = "cli_a964a24c23789cdb"
+FEISHU_APP_SECRET = ""  # 从环境变量 FEISHU_APP_SECRET 获取
+FEISHU_GROUP_ID = "oc_9632e08952cb974eb35198a280584f6a"  # AI 专项小组群 ID
 GROUP_NAME = "AI专项小组"
 MESSAGE_TEMPLATE = """📌 提醒：今天是 {date} 工作日！
 请各位同事及时在飞书文档中更新今日工作内容，整理待办事项。"""
@@ -98,22 +100,50 @@ def is_chinese_workday(d: date) -> bool:
     return True
 
 # ============ 飞书发消息 ============
-def send_feishu_message(content: str) -> bool:
-    """通过飞书机器人 webhook 发送消息"""
-    payload = {
-        "msg_type": "text",
-        "content": {
-            "text": content
-        }
-    }
-    
-    data = json.dumps(payload).encode("utf-8")
+def get_tenant_access_token() -> str:
+    """获取 tenant_access_token"""
+    import os
+    app_secret = os.environ.get("FEISHU_APP_SECRET", "")
+    if not app_secret:
+        print("错误: 未找到 FEISHU_APP_SECRET 环境变量")
+        return None
+    payload = json.dumps({"app_id": FEISHU_APP_ID, "app_secret": app_secret}).encode("utf-8")
     req = urllib.request.Request(
-        FEISHU_WEBHOOK_URL,
-        data=data,
+        "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal",
+        data=payload,
         headers={"Content-Type": "application/json"}
     )
-    
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+            if result.get("code") == 0:
+                return result.get("tenant_access_token", "")
+            else:
+                print(f"认证错误: {result}")
+                return None
+    except urllib.error.URLError as e:
+        print(f"网络错误: {e}")
+        return None
+
+def send_feishu_message(content: str) -> bool:
+    """通过飞书 IM API 发送消息到群组"""
+    token = get_tenant_access_token()
+    if not token:
+        return False
+
+    msg_payload = {
+        "msg_type": "text",
+        "receive_id": FEISHU_GROUP_ID,
+        "content": json.dumps({"text": content})
+    }
+
+    data = json.dumps(msg_payload).encode("utf-8")
+    req = urllib.request.Request(
+        "https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=chat_id",
+        data=data,
+        headers={"Content-Type": "application/json", "Authorization": f"Bearer {token}"}
+    )
+
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
             result = json.loads(resp.read().decode("utf-8"))
@@ -123,7 +153,8 @@ def send_feishu_message(content: str) -> bool:
                 print(f"飞书 API 错误: {result}")
                 return False
     except urllib.error.URLError as e:
-        print(f"网络错误: {e}")
+        body = e.read().decode("utf-8")
+        print(f"网络错误: {e},响应体: {body}")
         return False
 
 # ============ 主逻辑 ============
