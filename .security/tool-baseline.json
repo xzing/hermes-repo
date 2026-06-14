@@ -99,6 +99,7 @@
     "session_cron_4c1680677828_20260610_174057.json",
     "session_cron_4c1680677828_20260611_174045.json",
     "session_cron_4c1680677828_20260612_174003.json",
+    "session_cron_4c1680677828_20260613_174025.json",
     "session_cron_6766f328aa5f_20260428_030005.json",
     "session_cron_6766f328aa5f_20260429_030014.json",
     "session_cron_6766f328aa5f_20260430_030047.json",
@@ -144,38 +145,40 @@
     "session_cron_6766f328aa5f_20260609_030020.json",
     "session_cron_6766f328aa5f_20260610_030058.json",
     "session_cron_6766f328aa5f_20260611_030059.json",
-    "session_cron_6766f328aa5f_20260612_030021.json"
+    "session_cron_6766f328aa5f_20260612_030021.json",
+    "session_cron_6766f328aa5f_20260613_030042.json",
+    "session_cron_6766f328aa5f_20260614_030000.json"
   ],
   "tool_schemas": {
     "browser_back": {
-      "0,0": 143
+      "0,0": 146
     },
     "browser_click": {
-      "1,1": 143
+      "1,1": 146
     },
     "browser_console": {
-      "0,2": 143
+      "0,2": 146
     },
     "browser_get_images": {
-      "0,0": 143
+      "0,0": 146
     },
     "browser_navigate": {
-      "1,1": 143
+      "1,1": 146
     },
     "browser_press": {
-      "1,1": 143
+      "1,1": 146
     },
     "browser_scroll": {
-      "1,1": 143
+      "1,1": 146
     },
     "browser_snapshot": {
-      "0,1": 143
+      "0,1": 146
     },
     "browser_type": {
-      "2,2": 143
+      "2,2": 146
     },
     "browser_vision": {
-      "1,2": 143
+      "1,2": 146
     },
     "clarify": {
       "1,2": 62
@@ -184,75 +187,75 @@
       "1,10": 62
     },
     "delegate_task": {
-      "0,7": 143
+      "0,7": 146
     },
     "execute_code": {
-      "1,1": 143
+      "1,1": 146
     },
     "memory": {
-      "2,4": 144
+      "2,4": 147
     },
     "patch": {
-      "1,6": 143
+      "1,6": 146
     },
     "process": {
-      "1,6": 143
+      "1,6": 146
     },
     "read_file": {
-      "1,3": 143
+      "1,3": 146
     },
     "search_files": {
-      "1,8": 143
+      "1,8": 146
     },
     "send_message": {
       "0,3": 62
     },
     "session_search": {
-      "0,3": 143
+      "0,3": 146
     },
     "skill_manage": {
-      "2,9": 144
+      "2,9": 147
     },
     "skill_view": {
-      "1,2": 144
+      "1,2": 147
     },
     "skills_list": {
-      "0,1": 144
+      "0,1": 147
     },
     "terminal": {
-      "1,7": 143
+      "1,7": 146
     },
     "text_to_speech": {
-      "1,2": 143
+      "1,2": 146
     },
     "todo": {
-      "0,2": 143
+      "0,2": 146
     },
     "vision_analyze": {
-      "2,2": 143
+      "2,2": 146
     },
     "write_file": {
-      "2,2": 143
+      "2,2": 146
     },
     "feishu_doc_read": {
-      "1,1": 116
+      "1,1": 119
     },
     "feishu_drive_add_comment": {
-      "2,3": 116
+      "2,3": 119
     },
     "feishu_drive_list_comment_replies": {
-      "2,5": 116
+      "2,5": 119
     },
     "feishu_drive_list_comments": {
-      "1,5": 116
+      "1,5": 119
     },
     "feishu_drive_reply_comment": {
-      "3,4": 116
+      "3,4": 119
     }
   },
   "call_freq": {
     "search_files": 98,
-    "terminal": 2017,
+    "terminal": 2023,
     "process": 44,
     "session_search": 45,
     "browser_navigate": 45,
@@ -260,7 +263,7 @@
     "write_file": 35,
     "patch": 71,
     "execute_code": 208,
-    "read_file": 148,
+    "read_file": 150,
     "browser_snapshot": 8,
     "cronjob": 13,
     "skill_view": 57,
@@ -282,8 +285,8 @@
       "context|output_mode|path|pattern": 2
     },
     "terminal": {
-      "command": 1824,
-      "command|timeout": 162,
+      "command": 1829,
+      "command|timeout": 163,
       "background|command|notify_on_complete|watch_patterns": 5,
       "background|command|watch_patterns": 2,
       "background|command": 2,
@@ -318,7 +321,7 @@
     },
     "read_file": {
       "limit|offset|path": 17,
-      "path": 120,
+      "path": 122,
       "limit|path": 7,
       "limit": 4
     },
