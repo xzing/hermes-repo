@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-06-26T02:59:52.908099",
+  "updated_at": "2026-06-27T02:58:03.847760",
   "platforms": {
     "telegram": [],
     "discord": [],
     "whatsapp": [],
+    "whatsapp_cloud": [],
     "slack": [],
     "signal": [],
     "mattermost": [],
@@ -12,6 +13,7 @@
     "email": [],
     "sms": [],
     "dingtalk": [],
+    "msgraph_webhook": [],
     "feishu": [
       {
         "id": "oc_c9d05dfed3e4cc6f50894e6e80937e0a",
@@ -31,6 +33,15 @@
     "weixin": [],
     "bluebubbles": [],
     "qqbot": [],
-    "yuanbao": []
+    "yuanbao": [],
+    "relay": [],
+    "google_chat": [],
+    "irc": [],
+    "line": [],
+    "ntfy": [],
+    "photon": [],
+    "raft": [],
+    "simplex": [],
+    "teams": []
   }
 }

@@ -2,6 +2,8 @@
 name: feishu-leming-bitable
 description: 写入飞书多维表格任务（从用户提供的 wiki 链接获取）
 tags: []
+related_skills:
+  - feishu-bitable-tasks  # 泛化版，也覆盖多维表格写入
 ---
 
 # 飞书多维表格写入流程
@@ -42,7 +44,7 @@ curl -s "https://open.feishu.cn/open-apis/bitable/v1/apps/${APP_TOKEN}/tables/${
 
 ### Step 5: 写入记录（完整字段）
 ```bash
-TS=$(date +%s)   # unix timestamp，整数秒（不是毫秒，Bitable 日期字段要求整数秒）
+TS=$(date +%s)000   # unix timestamp，毫秒级（必须 ×1000，Bitable 日期字段要求毫秒）
 RESP=$(curl -s -X POST "https://open.feishu.cn/open-apis/bitable/v1/apps/${APP_TOKEN}/tables/${TABLE_ID}/records" \
   -H "Authorization: Bearer ${TOKEN}" \
   -H "Content-Type: application/json" \

@@ -65,7 +65,7 @@ curl -s -X POST "https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/ta
 |------|------|------|
 | 待办事项 | text | 主字段，必填 |
 | 是否已完成 | checkbox | boolean，设为 true |
-| 创建时间 | datetime | unix timestamp 秒级 |
+| 创建时间 | datetime | unix timestamp **毫秒级**（`$(date +%s)000`） |
 | 优先级 | single_select | 默认 🟡P1-一般 |
 | 执行人 | user | AIX: ou_fe6053b8bebb3e0846025b32a5615584 |
 

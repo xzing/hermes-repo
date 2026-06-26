@@ -1,97 +1,141 @@
 {
   "version": 1,
   "manifest": {
+    "apikey-image-gen/SKILL.md": [
+      1779805894730909480,
+      6094
+    ],
     "apple/apple-notes/SKILL.md": [
-      1776654200000000000,
-      2187
+      1782446026940505678,
+      2169
     ],
     "apple/apple-reminders/SKILL.md": [
-      1776654200000000000,
-      2548
+      1782446026940505678,
+      3606
     ],
     "apple/findmy/SKILL.md": [
-      1776654200000000000,
-      3748
+      1782446026940505678,
+      3709
     ],
     "apple/imessage/SKILL.md": [
       1776654200000000000,
       2442
     ],
+    "apple/macos-computer-use/SKILL.md": [
+      1782446026940505678,
+      7309
+    ],
     "autonomous-ai-agents/claude-code/SKILL.md": [
-      1776654200000000000,
-      34370
+      1782446026940505678,
+      34288
     ],
     "autonomous-ai-agents/codex/SKILL.md": [
-      1776654200000000000,
-      4101
+      1782446026940505678,
+      5386
     ],
     "autonomous-ai-agents/hermes-agent/SKILL.md": [
-      1776654200000000000,
-      28059
+      1782446026941505671,
+      46765
     ],
     "autonomous-ai-agents/opencode/SKILL.md": [
-      1776654200000000000,
-      7356
+      1782446026941505671,
+      7259
     ],
     "creative/architecture-diagram/SKILL.md": [
-      1776654200000000000,
-      6530
+      1782446026942505665,
+      5830
     ],
     "creative/ascii-art/SKILL.md": [
-      1776654200000000000,
-      10631
+      1782446026942505665,
+      10556
     ],
     "creative/ascii-video/SKILL.md": [
-      1776654200000000000,
-      14734
+      1782446026942505665,
+      14864
     ],
     "creative/baoyu-infographic/SKILL.md": [
-      1776654200000000000,
-      10633
+      1782446026942505665,
+      10434
+    ],
+    "creative/claude-design/SKILL.md": [
+      1782446026942505665,
+      19859
+    ],
+    "creative/comfyui/SKILL.md": [
+      1782446026943505658,
+      24287
     ],
     "creative/creative-ideation/SKILL.md": [
       1776654200000000000,
       6270
     ],
+    "creative/design-md/SKILL.md": [
+      1782446026945505645,
+      7023
+    ],
     "creative/excalidraw/SKILL.md": [
-      1776654200000000000,
-      7252
+      1782446026945505645,
+      7300
+    ],
+    "creative/humanizer/SKILL.md": [
+      1782446026946505638,
+      30025
     ],
     "creative/manim-video/SKILL.md": [
-      1776654200000000000,
-      11983
+      1782446026946505638,
+      12023
     ],
     "creative/p5js/SKILL.md": [
-      1776654200000000000,
-      27372
+      1782446026946505638,
+      27494
     ],
     "creative/pixel-art/SKILL.md": [
       1776654200000000000,
       7750
     ],
     "creative/popular-web-designs/SKILL.md": [
-      1776654200000000000,
-      9444
+      1782446026947505632,
+      9722
+    ],
+    "creative/pretext/SKILL.md": [
+      1782446026947505632,
+      14168
+    ],
+    "creative/sketch/SKILL.md": [
+      1782446026947505632,
+      9304
     ],
     "creative/songwriting-and-ai-music/SKILL.md": [
-      1776654200000000000,
-      10344
+      1782446026948505625,
+      10206
+    ],
+    "creative/touchdesigner-mcp/SKILL.md": [
+      1782446026948505625,
+      15429
     ],
     "data-science/jupyter-live-kernel/SKILL.md": [
-      1776654200000000000,
-      5571
+      1782446026950505612,
+      5285
+    ],
+    "devops/kanban-orchestrator/SKILL.md": [
+      1782446026950505612,
+      15831
+    ],
+    "devops/kanban-worker/SKILL.md": [
+      1782446026951505605,
+      10979
     ],
     "devops/webhook-subscriptions/SKILL.md": [
       1776654200000000000,
       6972
     ],
     "dogfood/SKILL.md": [
-      1776654200000000000,
-      6294
+      1782446026951505605,
+      6270
     ],
     "email/himalaya/SKILL.md": [
-      1776654200000000000,
-      6003
+      1782446026951505605,
+      7164
     ],
     "gaming/minecraft-modpack-server/SKILL.md": [
       1776654200000000000,
@@ -102,64 +146,76 @@
       8818
     ],
     "github/codebase-inspection/SKILL.md": [
-      1776654200000000000,
-      3738
+      1782446026951505605,
+      3628
     ],
     "github/github-auth/SKILL.md": [
-      1776654200000000000,
-      7673
+      1782446026951505605,
+      7596
     ],
     "github/github-code-review/SKILL.md": [
-      1776654200000000000,
-      13661
+      1782446026951505605,
+      13615
     ],
     "github/github-issues/SKILL.md": [
-      1776654200000000000,
-      9352
+      1782446026952505598,
+      9315
     ],
     "github/github-pr-workflow/SKILL.md": [
-      1776654200000000000,
-      10085
+      1782446026952505598,
+      10035
     ],
     "github/github-repo-management/SKILL.md": [
-      1776654200000000000,
-      13776
+      1782446026952505598,
+      13733
+    ],
+    "grok-image-to-video/SKILL.md": [
+      1779805894730909480,
+      4158
+    ],
+    "hyperframes/SKILL.md": [
+      1779805894731909491,
+      3471
+    ],
+    "markdown-viewer/SKILL.md": [
+      1779805894731909491,
+      5076
     ],
     "mcp/native-mcp/SKILL.md": [
       1776654200000000000,
       12542
     ],
     "media/gif-search/SKILL.md": [
-      1776654200000000000,
-      2687
+      1782446026952505598,
+      2720
     ],
     "media/heartmula/SKILL.md": [
-      1776654200000000000,
-      6402
+      1782446026952505598,
+      6412
     ],
     "media/songsee/SKILL.md": [
-      1776654200000000000,
-      2441
+      1782446026952505598,
+      2336
     ],
     "media/youtube-content/SKILL.md": [
-      1776654200000000000,
-      3152
+      1782446026952505598,
+      3384
     ],
     "mlops/evaluation/lm-evaluation-harness/SKILL.md": [
-      1776654200000000000,
-      11920
+      1782446026953505592,
+      12020
     ],
     "mlops/evaluation/weights-and-biases/SKILL.md": [
-      1776654200000000000,
-      12479
+      1782446026953505592,
+      12395
     ],
     "mlops/huggingface-hub/SKILL.md": [
-      1776654200000000000,
-      3750
+      1782446026953505592,
+      3674
     ],
     "mlops/inference/llama-cpp/SKILL.md": [
-      1776654200000000000,
-      12922
+      1782446026953505592,
+      8880
     ],
     "mlops/inference/obliteratus/SKILL.md": [
       1776654200000000000,
@@ -170,16 +226,16 @@
       15976
     ],
     "mlops/inference/vllm/SKILL.md": [
-      1776654200000000000,
-      9051
+      1782446026953505592,
+      9071
     ],
     "mlops/models/audiocraft/SKILL.md": [
-      1776654200000000000,
-      16333
+      1782446026954505585,
+      16189
     ],
     "mlops/models/segment-anything/SKILL.md": [
-      1776654200000000000,
-      13428
+      1782446026954505585,
+      13372
     ],
     "mlops/research/dspy/SKILL.md": [
       1776654200000000000,
@@ -198,104 +254,140 @@
       2332
     ],
     "note-taking/obsidian/SKILL.md": [
-      1776654200000000000,
-      1264
+      1782446026954505585,
+      2935
+    ],
+    "productivity/airtable/SKILL.md": [
+      1782446026954505585,
+      11334
     ],
     "productivity/feishu-bitable-tasks/SKILL.md": [
-      1778762921168899234,
-      2809
+      1782464773312812259,
+      2838
     ],
     "productivity/feishu-leming-bitable/SKILL.md": [
-      1778762916899850976,
-      2509
+      1782464804648601162,
+      3576
     ],
     "productivity/google-workspace/SKILL.md": [
-      1776654200000000000,
-      10731
+      1782446026954505585,
+      13411
+    ],
+    "productivity/lark-cli/SKILL.md": [
+      1782466449895530735,
+      5977
     ],
     "productivity/linear/SKILL.md": [
       1776654200000000000,
       11324
     ],
     "productivity/maps/SKILL.md": [
-      1776654200000000000,
-      6945
+      1782446026955505579,
+      6726
     ],
     "productivity/nano-pdf/SKILL.md": [
-      1776654200000000000,
-      1494
+      1782446026955505579,
+      1414
     ],
     "productivity/notion/SKILL.md": [
-      1776654200000000000,
-      5300
+      1782446026955505579,
+      14629
     ],
     "productivity/ocr-and-documents/SKILL.md": [
-      1776654200000000000,
-      5399
+      1782446026955505579,
+      5280
     ],
     "productivity/powerpoint/SKILL.md": [
-      1776654200000000000,
-      9194
+      1782446026956505572,
+      9298
+    ],
+    "productivity/teams-meeting-pipeline/SKILL.md": [
+      1782446026956505572,
+      6883
     ],
     "red-teaming/godmode/SKILL.md": [
       1776654200000000000,
       20319
     ],
+    "remotion/SKILL.md": [
+      1779805894732909503,
+      4313
+    ],
     "research/arxiv/SKILL.md": [
-      1776654200000000000,
-      10212
+      1782446026956505572,
+      10085
     ],
     "research/blogwatcher/SKILL.md": [
-      1776654200000000000,
-      5169
+      1782446026956505572,
+      5111
     ],
     "research/llm-wiki/SKILL.md": [
-      1776654200000000000,
-      16956
+      1782446026956505572,
+      20129
     ],
     "research/polymarket/SKILL.md": [
-      1776654200000000000,
-      3046
+      1782446026956505572,
+      2985
     ],
     "research/research-paper-writing/SKILL.md": [
-      1776654200000000000,
-      103549
+      1782446026957505565,
+      103375
     ],
     "smart-home/openhue/SKILL.md": [
-      1776654200000000000,
-      2770
+      1782446026957505565,
+      2713
     ],
     "social-media/xurl/SKILL.md": [
-      1776845432551688118,
-      13643
+      1782446026957505565,
+      15518
+    ],
+    "software-development/hermes-agent-skill-authoring/SKILL.md": [
+      1782446026957505565,
+      7609
+    ],
+    "software-development/node-inspect-debugger/SKILL.md": [
+      1782446026957505565,
+      10929
     ],
     "software-development/plan/SKILL.md": [
-      1776654200000000000,
-      2069
+      1782446026958505559,
+      8974
+    ],
+    "software-development/python-debugpy/SKILL.md": [
+      1782446026958505559,
+      13172
     ],
     "software-development/requesting-code-review/SKILL.md": [
-      1776654200000000000,
-      8606
+      1782446026958505559,
+      8465
+    ],
+    "software-development/simplify-code/SKILL.md": [
+      1782446026958505559,
+      10926
+    ],
+    "software-development/spike/SKILL.md": [
+      1782446026958505559,
+      8730
     ],
     "software-development/subagent-driven-development/SKILL.md": [
       1776654200000000000,
       9843
     ],
     "software-development/systematic-debugging/SKILL.md": [
-      1776654200000000000,
-      10538
+      1782446026958505559,
+      10471
     ],
     "software-development/test-driven-development/SKILL.md": [
-      1776654200000000000,
-      9625
+      1782446026958505559,
+      9564
     ],
     "software-development/writing-plans/SKILL.md": [
       1776654200000000000,
       7309
     ],
     "yuanbao/SKILL.md": [
-      1776845432551848950,
-      3781
+      1782446026958505559,
+      3795
     ],
     "apple/DESCRIPTION.md": [
       1776654200000000000,
@@ -408,6 +500,24 @@
   },
   "skills": [
     {
+      "skill_name": "apikey-image-gen",
+      "category": "apikey-image-gen",
+      "frontmatter_name": "apikey-image-gen",
+      "description": "Generate or edit images through Hermes Web UI using the s...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows",
+        "termux"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "apple-notes",
       "category": "apple",
       "frontmatter_name": "apple-notes",
@@ -468,11 +578,30 @@
       }
     },
     {
+      "skill_name": "macos-computer-use",
+      "category": "apple",
+      "frontmatter_name": "macos-computer-use",
+      "description": "",
+      "platforms": [
+        "macos"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "claude-code",
       "category": "autonomous-ai-agents",
       "frontmatter_name": "claude-code",
-      "description": "Delegate coding tasks to Claude Code (Anthropic's CLI age...",
-      "platforms": [],
+      "description": "Delegate coding to Claude Code CLI (features, PRs).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -484,8 +613,12 @@
       "skill_name": "codex",
       "category": "autonomous-ai-agents",
       "frontmatter_name": "codex",
-      "description": "Delegate coding tasks to OpenAI Codex CLI agent. Use for ...",
-      "platforms": [],
+      "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -497,8 +630,12 @@
       "skill_name": "hermes-agent",
       "category": "autonomous-ai-agents",
       "frontmatter_name": "hermes-agent",
-      "description": "Complete guide to using and extending Hermes Agent — CLI ...",
-      "platforms": [],
+      "description": "Configure, extend, or contribute to Hermes Agent.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -510,8 +647,12 @@
       "skill_name": "opencode",
       "category": "autonomous-ai-agents",
       "frontmatter_name": "opencode",
-      "description": "Delegate coding tasks to OpenCode CLI agent for feature i...",
-      "platforms": [],
+      "description": "Delegate coding to OpenCode CLI (features, PR review).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -523,8 +664,12 @@
       "skill_name": "architecture-diagram",
       "category": "creative",
       "frontmatter_name": "architecture-diagram",
-      "description": "Generate dark-themed SVG diagrams of software systems and...",
-      "platforms": [],
+      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -536,8 +681,12 @@
       "skill_name": "ascii-art",
       "category": "creative",
       "frontmatter_name": "ascii-art",
-      "description": "Generate ASCII art using pyfiglet (571 fonts), cowsay, bo...",
-      "platforms": [],
+      "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -549,8 +698,12 @@
       "skill_name": "ascii-video",
       "category": "creative",
       "frontmatter_name": "ascii-video",
-      "description": "Production pipeline for ASCII art video — any format. Con...",
-      "platforms": [],
+      "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -562,8 +715,46 @@
       "skill_name": "baoyu-infographic",
       "category": "creative",
       "frontmatter_name": "baoyu-infographic",
-      "description": "Generate professional infographics with 21 layout types a...",
-      "platforms": [],
+      "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "claude-design",
+      "category": "creative",
+      "frontmatter_name": "claude-design",
+      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "comfyui",
+      "category": "creative",
+      "frontmatter_name": "comfyui",
+      "description": "Generate images, video, and audio with ComfyUI — install,...",
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -585,11 +776,49 @@
       }
     },
     {
+      "skill_name": "design-md",
+      "category": "creative",
+      "frontmatter_name": "design-md",
+      "description": "Author/validate/export Google's DESIGN.md token spec files.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "excalidraw",
       "category": "creative",
       "frontmatter_name": "excalidraw",
-      "description": "Create hand-drawn style diagrams using Excalidraw JSON fo...",
-      "platforms": [],
+      "description": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "humanizer",
+      "category": "creative",
+      "frontmatter_name": "humanizer",
+      "description": "Humanize text: strip AI-isms and add real voice.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -601,8 +830,12 @@
       "skill_name": "manim-video",
       "category": "creative",
       "frontmatter_name": "manim-video",
-      "description": "Production pipeline for mathematical and technical animat...",
-      "platforms": [],
+      "description": "Manim CE animations: 3Blue1Brown math/algo videos.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -614,8 +847,12 @@
       "skill_name": "p5js",
       "category": "creative",
       "frontmatter_name": "p5js",
-      "description": "Production pipeline for interactive and generative visual...",
-      "platforms": [],
+      "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -640,8 +877,46 @@
       "skill_name": "popular-web-designs",
       "category": "creative",
       "frontmatter_name": "popular-web-designs",
-      "description": "54 production-quality design systems extracted from real ...",
-      "platforms": [],
+      "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "pretext",
+      "category": "creative",
+      "frontmatter_name": "pretext",
+      "description": "Use when building creative browser demos with @chenglou/p...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "sketch",
+      "category": "creative",
+      "frontmatter_name": "sketch",
+      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -653,8 +928,29 @@
       "skill_name": "songwriting-and-ai-music",
       "category": "creative",
       "frontmatter_name": "songwriting-and-ai-music",
-      "description": "Songwriting craft, AI music generation prompts (Suno focu...",
-      "platforms": [],
+      "description": "Songwriting craft and Suno AI music prompts.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "touchdesigner-mcp",
+      "category": "creative",
+      "frontmatter_name": "touchdesigner-mcp",
+      "description": "Control a running TouchDesigner instance via twozero MCP ...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -666,8 +962,46 @@
       "skill_name": "jupyter-live-kernel",
       "category": "data-science",
       "frontmatter_name": "jupyter-live-kernel",
-      "description": "Use a live Jupyter kernel for stateful, iterative Python ...",
-      "platforms": [],
+      "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "kanban-orchestrator",
+      "category": "devops",
+      "frontmatter_name": "kanban-orchestrator",
+      "description": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "kanban-worker",
+      "category": "devops",
+      "frontmatter_name": "kanban-worker",
+      "description": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -692,8 +1026,12 @@
       "skill_name": "dogfood",
       "category": "dogfood",
       "frontmatter_name": "dogfood",
-      "description": "Systematic exploratory QA testing of web applications — f...",
-      "platforms": [],
+      "description": "Exploratory QA of web apps: find bugs, evidence, reports.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -705,8 +1043,12 @@
       "skill_name": "himalaya",
       "category": "email",
       "frontmatter_name": "himalaya",
-      "description": "CLI to manage emails via IMAP/SMTP. Use himalaya to list,...",
-      "platforms": [],
+      "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -744,8 +1086,12 @@
       "skill_name": "codebase-inspection",
       "category": "github",
       "frontmatter_name": "codebase-inspection",
-      "description": "Inspect and analyze codebases using pygount for LOC count...",
-      "platforms": [],
+      "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -757,8 +1103,12 @@
       "skill_name": "github-auth",
       "category": "github",
       "frontmatter_name": "github-auth",
-      "description": "Set up GitHub authentication for the agent using git (uni...",
-      "platforms": [],
+      "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -770,8 +1120,12 @@
       "skill_name": "github-code-review",
       "category": "github",
       "frontmatter_name": "github-code-review",
-      "description": "Review code changes by analyzing git diffs, leaving inlin...",
-      "platforms": [],
+      "description": "Review PRs: diffs, inline comments via gh or REST.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -783,8 +1137,12 @@
       "skill_name": "github-issues",
       "category": "github",
       "frontmatter_name": "github-issues",
-      "description": "Create, manage, triage, and close GitHub issues. Search e...",
-      "platforms": [],
+      "description": "Create, triage, label, assign GitHub issues via gh or REST.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -796,8 +1154,12 @@
       "skill_name": "github-pr-workflow",
       "category": "github",
       "frontmatter_name": "github-pr-workflow",
-      "description": "Full pull request lifecycle — create branches, commit cha...",
-      "platforms": [],
+      "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -809,8 +1171,63 @@
       "skill_name": "github-repo-management",
       "category": "github",
       "frontmatter_name": "github-repo-management",
-      "description": "Clone, create, fork, configure, and manage GitHub reposit...",
-      "platforms": [],
+      "description": "Clone/create/fork repos; manage remotes, releases.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "grok-image-to-video",
+      "category": "grok-image-to-video",
+      "frontmatter_name": "grok-image-to-video",
+      "description": "Animate a local image into a short mp4 video through Herm...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "hyperframes",
+      "category": "hyperframes",
+      "frontmatter_name": "hyperframes",
+      "description": "Create AI videos with HyperFrames in Hermes using HTML, C...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "markdown-viewer",
+      "category": "markdown-viewer",
+      "frontmatter_name": "markdown-viewer",
+      "description": "Create rich diagrams, data visualizations, technical arch...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -835,8 +1252,12 @@
       "skill_name": "gif-search",
       "category": "media",
       "frontmatter_name": "gif-search",
-      "description": "Search and download GIFs from Tenor using curl. No depend...",
-      "platforms": [],
+      "description": "Search/download GIFs from Tenor via curl + jq.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -848,8 +1269,12 @@
       "skill_name": "heartmula",
       "category": "media",
       "frontmatter_name": "heartmula",
-      "description": "Set up and run HeartMuLa, the open-source music generatio...",
-      "platforms": [],
+      "description": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -861,8 +1286,12 @@
       "skill_name": "songsee",
       "category": "media",
       "frontmatter_name": "songsee",
-      "description": "Generate spectrograms and audio feature visualizations (m...",
-      "platforms": [],
+      "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -874,8 +1303,12 @@
       "skill_name": "youtube-content",
       "category": "media",
       "frontmatter_name": "youtube-content",
-      "description": "Fetch YouTube video transcripts and transform them into s...",
-      "platforms": [],
+      "description": "YouTube transcripts to summaries, threads, blogs.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -887,8 +1320,11 @@
       "skill_name": "lm-evaluation-harness",
       "category": "mlops/evaluation",
       "frontmatter_name": "evaluating-llms-harness",
-      "description": "Evaluates LLMs across 60+ academic benchmarks (MMLU, Huma...",
-      "platforms": [],
+      "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -900,8 +1336,12 @@
       "skill_name": "weights-and-biases",
       "category": "mlops/evaluation",
       "frontmatter_name": "weights-and-biases",
-      "description": "Track ML experiments with automatic logging, visualize tr...",
-      "platforms": [],
+      "description": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -913,8 +1353,12 @@
       "skill_name": "huggingface-hub",
       "category": "mlops",
       "frontmatter_name": "huggingface-hub",
-      "description": "Hugging Face Hub CLI (hf) — search, download, and upload ...",
-      "platforms": [],
+      "description": "HuggingFace hf CLI: search/download/upload models, datasets.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -926,8 +1370,12 @@
       "skill_name": "llama-cpp",
       "category": "mlops/inference",
       "frontmatter_name": "llama-cpp",
-      "description": "Run LLM inference with llama.cpp on CPU, Apple Silicon, A...",
-      "platforms": [],
+      "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -965,8 +1413,11 @@
       "skill_name": "vllm",
       "category": "mlops/inference",
       "frontmatter_name": "serving-llms-vllm",
-      "description": "Serves LLMs with high throughput using vLLM's PagedAttent...",
-      "platforms": [],
+      "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -978,8 +1429,11 @@
       "skill_name": "audiocraft",
       "category": "mlops/models",
       "frontmatter_name": "audiocraft-audio-generation",
-      "description": "PyTorch library for audio generation including text-to-mu...",
-      "platforms": [],
+      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -991,8 +1445,12 @@
       "skill_name": "segment-anything",
       "category": "mlops/models",
       "frontmatter_name": "segment-anything-model",
-      "description": "Foundation model for image segmentation with zero-shot tr...",
-      "platforms": [],
+      "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1056,8 +1514,29 @@
       "skill_name": "obsidian",
       "category": "note-taking",
       "frontmatter_name": "obsidian",
-      "description": "Read, search, and create notes in the Obsidian vault.",
-      "platforms": [],
+      "description": "Read, search, create, and edit notes in the Obsidian vault.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "airtable",
+      "category": "productivity",
+      "frontmatter_name": "airtable",
+      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1095,7 +1574,24 @@
       "skill_name": "google-workspace",
       "category": "productivity",
       "frontmatter_name": "google-workspace",
-      "description": "Gmail, Calendar, Drive, Contacts, Sheets, and Docs integr...",
+      "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "lark-cli",
+      "category": "productivity",
+      "frontmatter_name": "lark-cli",
+      "description": "lark-cli (飞书 CLI) 封装 — 读取/写入飞书文档、Wiki、多维表格、消息等。认证使用环境变量 F...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1121,8 +1617,12 @@
       "skill_name": "maps",
       "category": "productivity",
       "frontmatter_name": "maps",
-      "description": "Location intelligence — geocode a place, reverse-geocode ...",
-      "platforms": [],
+      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [
@@ -1136,8 +1636,12 @@
       "skill_name": "nano-pdf",
       "category": "productivity",
       "frontmatter_name": "nano-pdf",
-      "description": "Edit PDFs with natural-language instructions using the na...",
-      "platforms": [],
+      "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1149,8 +1653,12 @@
       "skill_name": "notion",
       "category": "productivity",
       "frontmatter_name": "notion",
-      "description": "Notion API for creating and managing pages, databases, an...",
-      "platforms": [],
+      "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1162,8 +1670,12 @@
       "skill_name": "ocr-and-documents",
       "category": "productivity",
       "frontmatter_name": "ocr-and-documents",
-      "description": "Extract text from PDFs and scanned documents. Use web_ext...",
-      "platforms": [],
+      "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1175,7 +1687,24 @@
       "skill_name": "powerpoint",
       "category": "productivity",
       "frontmatter_name": "powerpoint",
-      "description": "Use this skill any time a .pptx file is involved in any w...",
+      "description": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "teams-meeting-pipeline",
+      "category": "productivity",
+      "frontmatter_name": "teams-meeting-pipeline",
+      "description": "Operate the Teams meeting summary pipeline via Hermes CLI...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1198,11 +1727,32 @@
       }
     },
     {
+      "skill_name": "remotion",
+      "category": "remotion",
+      "frontmatter_name": "remotion",
+      "description": "Create editable AI video projects with Remotion and React...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "arxiv",
       "category": "research",
       "frontmatter_name": "arxiv",
-      "description": "Search and retrieve academic papers from arXiv using thei...",
-      "platforms": [],
+      "description": "Search arXiv papers by keyword, author, category, or ID.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1214,8 +1764,12 @@
       "skill_name": "blogwatcher",
       "category": "research",
       "frontmatter_name": "blogwatcher",
-      "description": "Monitor blogs and RSS/Atom feeds for updates using the bl...",
-      "platforms": [],
+      "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1227,8 +1781,12 @@
       "skill_name": "llm-wiki",
       "category": "research",
       "frontmatter_name": "llm-wiki",
-      "description": "Karpathy's LLM Wiki — build and maintain a persistent, in...",
-      "platforms": [],
+      "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1240,8 +1798,12 @@
       "skill_name": "polymarket",
       "category": "research",
       "frontmatter_name": "polymarket",
-      "description": "Query Polymarket prediction market data — search markets,...",
-      "platforms": [],
+      "description": "Query Polymarket: markets, prices, orderbooks, history.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1253,7 +1815,7 @@
       "skill_name": "research-paper-writing",
       "category": "research",
       "frontmatter_name": "research-paper-writing",
-      "description": "End-to-end pipeline for writing ML/AI research papers — f...",
+      "description": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
       "platforms": [
         "linux",
         "macos"
@@ -1272,8 +1834,12 @@
       "skill_name": "openhue",
       "category": "smart-home",
       "frontmatter_name": "openhue",
-      "description": "Control Philips Hue lights, rooms, and scenes via the Ope...",
-      "platforms": [],
+      "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1285,7 +1851,7 @@
       "skill_name": "xurl",
       "category": "social-media",
       "frontmatter_name": "xurl",
-      "description": "Interact with X/Twitter via xurl, the official X API CLI....",
+      "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
       "platforms": [
         "linux",
         "macos"
@@ -1298,11 +1864,65 @@
       }
     },
     {
+      "skill_name": "hermes-agent-skill-authoring",
+      "category": "software-development",
+      "frontmatter_name": "hermes-agent-skill-authoring",
+      "description": "Author in-repo SKILL.md: frontmatter, validator, structure.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "node-inspect-debugger",
+      "category": "software-development",
+      "frontmatter_name": "node-inspect-debugger",
+      "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "plan",
       "category": "software-development",
       "frontmatter_name": "plan",
-      "description": "Plan mode for Hermes — inspect context, write a markdown ...",
-      "platforms": [],
+      "description": "Plan mode: write an actionable markdown plan to .hermes/p...",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "python-debugpy",
+      "category": "software-development",
+      "frontmatter_name": "python-debugpy",
+      "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1314,8 +1934,46 @@
       "skill_name": "requesting-code-review",
       "category": "software-development",
       "frontmatter_name": "requesting-code-review",
-      "description": "Pre-commit verification pipeline — static security scan, ...",
-      "platforms": [],
+      "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "simplify-code",
+      "category": "software-development",
+      "frontmatter_name": "simplify-code",
+      "description": "Parallel 3-agent cleanup of recent code changes.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "spike",
+      "category": "software-development",
+      "frontmatter_name": "spike",
+      "description": "Throwaway experiments to validate an idea before build.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1340,8 +1998,12 @@
       "skill_name": "systematic-debugging",
       "category": "software-development",
       "frontmatter_name": "systematic-debugging",
-      "description": "Use when encountering any bug, test failure, or unexpecte...",
-      "platforms": [],
+      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1353,8 +2015,12 @@
       "skill_name": "test-driven-development",
       "category": "software-development",
       "frontmatter_name": "test-driven-development",
-      "description": "Use when implementing any feature or bugfix, before writi...",
-      "platforms": [],
+      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1379,8 +2045,12 @@
       "skill_name": "yuanbao",
       "category": "yuanbao",
       "frontmatter_name": "yuanbao",
-      "description": "Yuanbao (元宝) group interaction — @mention users, query gr...",
-      "platforms": [],
+      "description": "Yuanbao (元宝) groups: @mention users, query info/members.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],

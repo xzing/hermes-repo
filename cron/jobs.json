@@ -18,15 +18,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 59
+        "completed": 60
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-04-27T22:31:38.958633+08:00",
-      "next_run_at": "2026-06-27T03:00:00+08:00",
-      "last_run_at": "2026-06-25T03:01:25.395883+08:00",
+      "next_run_at": "2026-06-28T03:00:00+08:00",
+      "last_run_at": "2026-06-26T03:01:37.513264+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -56,15 +56,15 @@
       "schedule_display": "40 17 * * ?",
       "repeat": {
         "times": null,
-        "completed": 48
+        "completed": 49
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-08T23:00:00.904445+08:00",
-      "next_run_at": "2026-06-26T17:40:00+08:00",
-      "last_run_at": "2026-06-25T17:41:37.633252+08:00",
+      "next_run_at": "2026-06-27T17:40:00+08:00",
+      "last_run_at": "2026-06-26T17:40:44.546862+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -74,8 +74,9 @@
         "chat_id": "oc_9632e08952cb974eb35198a280584f6a",
         "chat_name": "AI \u4e13\u9879\u5c0f\u7ec4",
         "thread_id": null
-      }
+      },
+      "fire_claim": null
     }
   ],
-  "updated_at": "2026-06-26T03:00:52.911993+08:00"
+  "updated_at": "2026-06-27T03:00:04.601803+08:00"
 }
